@@ -2,7 +2,7 @@ import "./App.css";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
-import Projects from "./Projects/Projects";
+import Projects from "./Projects/Project";
 import Contact from "./Contact/Contact";
 import ScrollToTop from "./ScrollToTop/ScrollToTop";
 function App() {
