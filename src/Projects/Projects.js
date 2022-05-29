@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react'
 import Header from '../Header/Header'
-import './Projects.css'
+import './projects.css'
 import arrow from '../Assets/arrow.svg'
 import GetInTouch from '../GetInTouch/GetInTouch'
 import Footer from '../Footer/Footer'
