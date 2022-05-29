@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import flower from '../Assets/flower.svg'
 import another from '../Assets/another.svg'
 import arrow from '../Assets/arrow.svg'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import Footer from '../Footer/Footer';
 function Home() {
