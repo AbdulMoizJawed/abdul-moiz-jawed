@@ -1,6 +1,6 @@
-import React, {useRef, useEffect} from 'react'
+import React from 'react'
 import './Header.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import MenuIcon from '../Assets/menu.svg'
 // import gsap from 'gsap'
 function Header({ timeline }) {
@@ -28,23 +28,23 @@ function Header({ timeline }) {
                 <div className="toggle-menu">
                     <img src={MenuIcon} alt="" />
                 </div>
-                <ul className="menu-items">
+                {/* <ul className="menu-items">
                     <li ref={el => li1 =el}>
-                        <Link to="/" className='li'>Home</Link>
+                        <a href="/" className='li'>Home</a>
                     </li>
                     <li ref={el => li2 =el}>
-                        <Link to="/about" className='li'>About</Link>
+                        <a href="/about" className='li'>About</a>
                     </li>
                     <li ref={el => li3 =el}>
-                        <Link to="/projects" className='li'>Projects</Link>
+                        <a href="/projects" className='li'>Projects</a>
                     </li>
                     <li ref={el => li4 =el}>
-                        <Link to="/contact" className='li'>Contact</Link>
+                        <a href="/contact" className='li'>Contact</a>
                     </li>
                     <li ref={el => li5 =el}>
-                        <Link to="" className='li'>Youtube</Link>
+                        <a href="/" className='li'>Youtube</a>
                     </li>
-                </ul>
+                </ul> */}
             </header>
         </div>
     )
