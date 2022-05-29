@@ -132,9 +132,9 @@ function Home() {
             </div>
             <div className="project-and-work">
                 <h1>
-                    <Link className="h1-project" to="/projects">
+                    <a className="h1-project" href="/projects">
                         My Projects and Works <img src={arrow} alt="" />
-                    </Link>
+                    </a>
                 </h1>
                 <br />
                 <p>Click me!</p>
