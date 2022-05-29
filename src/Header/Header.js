@@ -2,7 +2,6 @@ import React, {useRef, useEffect} from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 import MenuIcon from '../Assets/menu.svg'
-import gsap from 'gsap'
 function Header({ timeline }) {
     let li1 = useRef(null)
     let li2 = useRef(null)
