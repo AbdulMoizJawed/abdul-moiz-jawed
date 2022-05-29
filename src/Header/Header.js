@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 import MenuIcon from '../Assets/menu.svg'
 // import gsap from 'gsap'
 function Header({ timeline }) {
-    let li1 = useRef(null)
-    let li2 = useRef(null)
-    let li3 = useRef(null)
-    let li4 = useRef(null)
-    let li5 = useRef(null)
+    // let li1 = useRef(null)
+    // let li2 = useRef(null)
+    // let li3 = useRef(null)
+    // let li4 = useRef(null)
+    // let li5 = useRef(null)
 
     // useEffect(() => {
     //     timeline.from([li1,li2,li3,li4,li5], {
