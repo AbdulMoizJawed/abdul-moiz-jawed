@@ -2,6 +2,7 @@ import React, {useRef, useEffect} from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 import MenuIcon from '../Assets/menu.svg'
+// import gsap from 'gsap'
 function Header({ timeline }) {
     let li1 = useRef(null)
     let li2 = useRef(null)
@@ -9,17 +10,17 @@ function Header({ timeline }) {
     let li4 = useRef(null)
     let li5 = useRef(null)
 
-    useEffect(() => {
-        timeline.from([li1,li2,li3,li4,li5], {
-            opacity: 0,
-            duration: 1,
-            delay: .2,
-            y: 20,
-            stagger: {
-                amount: .6
-            }
-        })
-    })
+    // useEffect(() => {
+    //     timeline.from([li1,li2,li3,li4,li5], {
+    //         opacity: 0,
+    //         duration: 1,
+    //         delay: .2,
+    //         y: 20,
+    //         stagger: {
+    //             amount: .6
+    //         }
+    //     })
+    // })
     return (
         <div>
             <header>
